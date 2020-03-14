@@ -28,8 +28,8 @@ import game2D.*;
 
 public class Game extends GameCore {
 	// Useful game constants
-	static int screenWidth = 1000;
-	static int screenHeight = 648;
+	static int screenWidth = 500;
+	static int screenHeight = 500;
 
 	float lift = 0.005f;
 	float gravity = 0.0007f;
@@ -192,7 +192,7 @@ public class Game extends GameCore {
 		spawnPortal.show();
 
 		endPortal.setX(2000);
-		endPortal.setY(433);
+		endPortal.setY(200);
 		endPortal.setVelocityX(0);
 		endPortal.setVelocityY(0);
 		endPortal.show();
